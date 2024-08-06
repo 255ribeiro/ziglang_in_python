@@ -1,0 +1,17 @@
+[project]
+name = "ziglang_in_python"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Fernando Ferraz Ribeiro", email = "ffribeiro@gmail.com"},
+]
+dependencies = [
+    "numpy>=2.0.1",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
